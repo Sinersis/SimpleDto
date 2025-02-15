@@ -1,12 +1,18 @@
 {
   "name": "sinersis/simple-dto",
   "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SimpleDto\\": "src/"
+      "SimpleDto\\": "src/",
+      "SimpleDto\\Test": "tests/"
     }
   },
   "require": {
     "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0.1"
   }
 }
