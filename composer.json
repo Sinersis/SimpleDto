@@ -1,0 +1,12 @@
+{
+  "name": "sinersis/simple-dto",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "SimpleDto\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
